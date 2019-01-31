@@ -1,0 +1,4 @@
+#Thu Jan 31 20:43:25 IST 2019
+base.0=/Users/anjaliverma/Story/GoogleSignIn-Flutter/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
