@@ -6,42 +6,32 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'state.dart';
 import 'auth.dart';
 
-class _MyInherited extends InheritedWidget {
-  _MyInherited({
-    Key key,
-    @required Widget child,
-    @required this.data,
-  }) : super(key: key, child: child);
-
-  final MyInheritedWidgetState data;
-
-  @override
-  bool updateShouldNotify(_MyInherited oldWidget) {
-    return true;
-  }
-}
-
-class MyInheritedWidget extends StatefulWidget {
+class StateWidget extends StatefulWidget {
   final StateModel state;
   final Widget child;
 
-  MyInheritedWidget({
+  StateWidget({
     @required this.child,
     this.state,
   });
-  @override
-  MyInheritedWidgetState createState() => new MyInheritedWidgetState();
 
-  static MyInheritedWidgetState of(BuildContext context) {
-    return (context.inheritFromWidgetOfExactType(_MyInherited) as _MyInherited)
+  // Returns data of the nearest widget _StateDataWidget
+  // in the widget tree.
+  static _StateWidgetState of(BuildContext context) {
+    return (context.inheritFromWidgetOfExactType(_StateDataWidget)
+            as _StateDataWidget)
         .data;
   }
+
+  @override
+  _StateWidgetState createState() => new _StateWidgetState();
 }
 
-class MyInheritedWidgetState extends State<MyInheritedWidget> {
+class _StateWidgetState extends State<StateWidget> {
   StateModel state;
   GoogleSignInAccount googleAccount;
   final GoogleSignIn googleSignIn = new GoogleSignIn();
+
   @override
   void initState() {
     super.initState();
@@ -64,25 +54,57 @@ class MyInheritedWidgetState extends State<MyInheritedWidget> {
     }
   }
 
-  Future<FirebaseUser> signInWithGoogle() async {
-    print("Just to check whether you're reading the code or not, Stud!!");
-
+  
+  Future<Null> signInWithGoogle() async {
     if (googleAccount == null) {
+      // Start the sign-in process:
       googleAccount = await googleSignIn.signIn();
     }
     FirebaseUser firebaseUser = await signIntoFirebase(googleAccount);
+    state.user = firebaseUser; // new
     setState(() {
       state.isLoading = false;
-      state.user = firebaseUser;
+      //if(firebaseUser != null)
+        state.user = firebaseUser;
+     // else
+       // state.user = null;
     });
-    return firebaseUser;
+
+   
+  }
+
+  Future<Null> signOutOfGoogle() async {
+    // Sign out from Firebase and Google
+    await FirebaseAuth.instance.signOut();
+    await googleSignIn.signOut();
+    // Clear variables
+    googleAccount = null;
+    state.user = null;
+    setState(() {
+      state = StateModel(user: null);
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    return new _MyInherited(
+    return new _StateDataWidget(
       data: this,
       child: widget.child,
     );
   }
+}
+
+class _StateDataWidget extends InheritedWidget {
+  final _StateWidgetState data;
+
+  _StateDataWidget({
+    Key key,
+    @required Widget child,
+    @required this.data,
+  }) : super(key: key, child: child);
+
+  // Rebuild the widgets that inherit from this widget
+  // on every rebuild of _StateDataWidget:
+  @override
+  bool updateShouldNotify(_StateDataWidget old) => true;
 }

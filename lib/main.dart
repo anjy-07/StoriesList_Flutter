@@ -3,7 +3,9 @@ import 'app.dart';
 import 'state_widget.dart';
 
 
-void main() => runApp(new MyInheritedWidget(
-      child: new MyApp(),
-    ));
 
+void main(){
+  StateWidget stateWidget = new StateWidget(child:new MyApp());
+  runApp(stateWidget);
+}
+ 
