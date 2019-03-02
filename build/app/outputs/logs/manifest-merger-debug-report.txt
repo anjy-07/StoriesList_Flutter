@@ -5,11 +5,16 @@ INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main
 INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
 MERGED from [:firebase_auth] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-20:12
 MERGED from [:google_sign_in] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
+MERGED from [:cloud_firestore] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/b6743ac1064abac0c797884ec9c2a04e/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-share-4.40.0.aar/ee773d30d91972274595654bedba22c4/AndroidManifest.xml:21:1-31:12
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/effdbea032ec5f7444bb54bf5f915099/AndroidManifest.xml:18:1-27:12
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1ed9261d53ac8bb324209cd7a2ee5a6a/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:2:1-21:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/34d94a75ca3157520bc32ef14e6d5baf/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/dc952f2c58cc661fa7803abe52838ef8/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/c79d4ea37b615307a2e87681b710a329/AndroidManifest.xml:2:1-7:12
@@ -23,18 +28,34 @@ MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/anjaliverma
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/361965f03f9d79cd6400b4af33241ab5/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/2d6dbace7ea34eada4302e064b7a39ef/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/dfa1bcf42a836c20b3bec72a96f5aaf4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/03254c7d77a29b3caeecdd33edc0f00c/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/21f9fbdd69cc16eb5c83df842c9f3dca/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d87a85087a0c7e48c92e126f6c5e1079/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/618bf35e9127e37cb937abb8a7388b86/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3c6aadc0cd353c8c3fa9085792dfabba/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:21:1-37:12
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:21:1-53:12
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:18:1-37:12
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:18:1-39:12
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:18:1-35:12
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.1.aar/cac859e6c515538a8017aaf590a691a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f7b4d86d46c3c1cae8efdc6e5a77d0c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/6fa03b92410e4082f807706ab94caaa6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4058f0236b3ef25ac91d9be1ad3b2e73/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c79b4bb7e93a461de96f846243f9c518/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/fe2c65ef609adcc29d3cbdf1b2e0f85c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/2564667c13b2de769a8031f24f2debdb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/5d00a65900e58a3eb12c878eef114313/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/31c963d16181b236ad21ebf78bc66354/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/585ef996e73332f37a262ee1e88c7f16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a3e90b8cf0b4b8b438e6042a0399338d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/77a6513331ad9e721e1e6e8a0d85d213/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2adadeafee61bfe335ffbc04bb5634a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.0.aar/fa3f07597bccdd20445889908c2cd896/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/e2bbe0da1ba0c27f513c87534d840271/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf84dfac03d147b201a37aafdd3f2b49/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/17e272e412718a7adb84df3cd16d8cf5/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cec5cc412a7cb1a7b83f2a9257ebbd54/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/228e83c43dec3332e7512ffa613a0a33/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ae987f65589476093365e6e8a71f5b28/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5237a80f59b05ec8fd248830eefbcd99/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a076601758a7f8e9f591022482818f12/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ba8e4529d41b08d37a09073898b6c896/AndroidManifest.xml:17:1-30:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46e981e39420ccc6907bd64c9288ed06/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:1:1-39:12
@@ -54,8 +75,12 @@ INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main
 		ADDED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:8:5-66
+MERGED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-67
+MERGED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/170d11f5afdf21ca14c346d552d099e5/AndroidManifest.xml:23:5-67
@@ -64,16 +89,30 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/anjalive
 MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/6a57e463b154df9183ac9e09a8d3e3c8/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/69111f695b95ae31cb73320eac738980/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/69111f695b95ae31cb73320eac738980/AndroidManifest.xml:23:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:25:5-67
 	android:name
 		ADDED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:8:22-64
 application
 ADDED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:15:5-38:19
-MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:7:5-20
+MERGED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-18:19
+MERGED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-18:19
 MERGED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/b6743ac1064abac0c797884ec9c2a04e/AndroidManifest.xml:22:5-36:19
 MERGED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/b6743ac1064abac0c797884ec9c2a04e/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:7:5-20
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-share-4.40.0.aar/ee773d30d91972274595654bedba22c4/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-share-4.40.0.aar/ee773d30d91972274595654bedba22c4/AndroidManifest.xml:28:5-29:19
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/effdbea032ec5f7444bb54bf5f915099/AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/effdbea032ec5f7444bb54bf5f915099/AndroidManifest.xml:25:5-20
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1ed9261d53ac8bb324209cd7a2ee5a6a/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1ed9261d53ac8bb324209cd7a2ee5a6a/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:13:5-19:19
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/dc952f2c58cc661fa7803abe52838ef8/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/dc952f2c58cc661fa7803abe52838ef8/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:26:5-32:19
@@ -102,22 +141,20 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/618bf35e9127e37cb937abb8a7388b86/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3c6aadc0cd353c8c3fa9085792dfabba/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3c6aadc0cd353c8c3fa9085792dfabba/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:28:5-51:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:27:5-33:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:27:5-33:19
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/17e272e412718a7adb84df3cd16d8cf5/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/17e272e412718a7adb84df3cd16d8cf5/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cec5cc412a7cb1a7b83f2a9257ebbd54/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cec5cc412a7cb1a7b83f2a9257ebbd54/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/228e83c43dec3332e7512ffa613a0a33/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/228e83c43dec3332e7512ffa613a0a33/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ae987f65589476093365e6e8a71f5b28/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ae987f65589476093365e6e8a71f5b28/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5237a80f59b05ec8fd248830eefbcd99/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5237a80f59b05ec8fd248830eefbcd99/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a076601758a7f8e9f591022482818f12/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a076601758a7f8e9f591022482818f12/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ba8e4529d41b08d37a09073898b6c896/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ba8e4529d41b08d37a09073898b6c896/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-share:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-share-4.40.0.aar/ee773d30d91972274595654bedba22c4/AndroidManifest.xml:28:18-44
 	android:label
 		ADDED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml:17:9-32
 	android:icon
@@ -160,16 +197,26 @@ INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main
 INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_auth] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/b6743ac1064abac0c797884ec9c2a04e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/b6743ac1064abac0c797884ec9c2a04e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/fefbb511d1cf979666a23eec8b3245fd/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-share-4.40.0.aar/ee773d30d91972274595654bedba22c4/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-share-4.40.0.aar/ee773d30d91972274595654bedba22c4/AndroidManifest.xml:24:5-26:41
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/effdbea032ec5f7444bb54bf5f915099/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/effdbea032ec5f7444bb54bf5f915099/AndroidManifest.xml:23:5-44
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1ed9261d53ac8bb324209cd7a2ee5a6a/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1ed9261d53ac8bb324209cd7a2ee5a6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/34d94a75ca3157520bc32ef14e6d5baf/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/34d94a75ca3157520bc32ef14e6d5baf/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/dc952f2c58cc661fa7803abe52838ef8/AndroidManifest.xml:5:5-44
@@ -196,6 +243,8 @@ MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/anjaliverma/.gra
 MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/2d6dbace7ea34eada4302e064b7a39ef/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/dfa1bcf42a836c20b3bec72a96f5aaf4/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/dfa1bcf42a836c20b3bec72a96f5aaf4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/03254c7d77a29b3caeecdd33edc0f00c/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/03254c7d77a29b3caeecdd33edc0f00c/AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/21f9fbdd69cc16eb5c83df842c9f3dca/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/21f9fbdd69cc16eb5c83df842c9f3dca/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d87a85087a0c7e48c92e126f6c5e1079/AndroidManifest.xml:20:5-44
@@ -204,26 +253,54 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/618bf35e9127e37cb937abb8a7388b86/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3c6aadc0cd353c8c3fa9085792dfabba/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3c6aadc0cd353c8c3fa9085792dfabba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:23:5-44
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.1.aar/cac859e6c515538a8017aaf590a691a3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.1.aar/cac859e6c515538a8017aaf590a691a3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f7b4d86d46c3c1cae8efdc6e5a77d0c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f7b4d86d46c3c1cae8efdc6e5a77d0c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/6fa03b92410e4082f807706ab94caaa6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/6fa03b92410e4082f807706ab94caaa6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4058f0236b3ef25ac91d9be1ad3b2e73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4058f0236b3ef25ac91d9be1ad3b2e73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c79b4bb7e93a461de96f846243f9c518/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/c79b4bb7e93a461de96f846243f9c518/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/fe2c65ef609adcc29d3cbdf1b2e0f85c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/fe2c65ef609adcc29d3cbdf1b2e0f85c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/2564667c13b2de769a8031f24f2debdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/2564667c13b2de769a8031f24f2debdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/5d00a65900e58a3eb12c878eef114313/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/5d00a65900e58a3eb12c878eef114313/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/31c963d16181b236ad21ebf78bc66354/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/31c963d16181b236ad21ebf78bc66354/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/585ef996e73332f37a262ee1e88c7f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/585ef996e73332f37a262ee1e88c7f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a3e90b8cf0b4b8b438e6042a0399338d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/a3e90b8cf0b4b8b438e6042a0399338d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/77a6513331ad9e721e1e6e8a0d85d213/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/77a6513331ad9e721e1e6e8a0d85d213/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2adadeafee61bfe335ffbc04bb5634a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2adadeafee61bfe335ffbc04bb5634a1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.0.aar/fa3f07597bccdd20445889908c2cd896/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.0.aar/fa3f07597bccdd20445889908c2cd896/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/e2bbe0da1ba0c27f513c87534d840271/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/e2bbe0da1ba0c27f513c87534d840271/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf84dfac03d147b201a37aafdd3f2b49/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf84dfac03d147b201a37aafdd3f2b49/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/17e272e412718a7adb84df3cd16d8cf5/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/17e272e412718a7adb84df3cd16d8cf5/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cec5cc412a7cb1a7b83f2a9257ebbd54/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cec5cc412a7cb1a7b83f2a9257ebbd54/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/228e83c43dec3332e7512ffa613a0a33/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/228e83c43dec3332e7512ffa613a0a33/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ae987f65589476093365e6e8a71f5b28/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ae987f65589476093365e6e8a71f5b28/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5237a80f59b05ec8fd248830eefbcd99/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5237a80f59b05ec8fd248830eefbcd99/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a076601758a7f8e9f591022482818f12/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a076601758a7f8e9f591022482818f12/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ba8e4529d41b08d37a09073898b6c896/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ba8e4529d41b08d37a09073898b6c896/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46e981e39420ccc6907bd64c9288ed06/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46e981e39420ccc6907bd64c9288ed06/AndroidManifest.xml:20:5-44
 INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml
@@ -232,6 +309,20 @@ INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main
 		INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/anjaliverma/Story/GoogleSignIn-Flutter/android/app/src/main/AndroidManifest.xml
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:9-12:47
+	android:value
+		ADDED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:13-44
+	android:name
+		ADDED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:13-58
+provider#com.facebook.FacebookContentProvider
+ADDED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:9-17:39
+	android:authorities
+		ADDED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-90
+	android:exported
+		ADDED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from [:flutter_share_me] /Users/anjaliverma/Story/GoogleSignIn-Flutter/build/flutter_share_me/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-64
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/b6743ac1064abac0c797884ec9c2a04e/AndroidManifest.xml:23:9-29:75
 	android:excludeFromRecents
@@ -248,6 +339,8 @@ ADDED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle
 		ADDED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/b6743ac1064abac0c797884ec9c2a04e/AndroidManifest.xml:24:13-85
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/b6743ac1064abac0c797884ec9c2a04e/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:14:9-18:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:27:9-31:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:27:9-31:19
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/69111f695b95ae31cb73320eac738980/AndroidManifest.xml:29:9-35:19
@@ -281,7 +374,9 @@ ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anjaliverma
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1ed9261d53ac8bb324209cd7a2ee5a6a/AndroidManifest.xml:34:13-89
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:23:5-79
+ADDED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/170d11f5afdf21ca14c346d552d099e5/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/170d11f5afdf21ca14c346d552d099e5/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/6a57e463b154df9183ac9e09a8d3e3c8/AndroidManifest.xml:24:5-79
@@ -289,7 +384,13 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/anjalive
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/69111f695b95ae31cb73320eac738980/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/69111f695b95ae31cb73320eac738980/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:23:22-76
+		ADDED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:10:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/6bd6f63a2e73dd10c063ca1bdda4b80c/AndroidManifest.xml:16:17-111
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/79fb311082603336d995cc3c093ab11c/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/170d11f5afdf21ca14c346d552d099e5/AndroidManifest.xml:25:5-68
@@ -418,25 +519,79 @@ ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anjaliv
 		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3c6aadc0cd353c8c3fa9085792dfabba/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/3c6aadc0cd353c8c3fa9085792dfabba/AndroidManifest.xml:24:13-58
-meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cec5cc412a7cb1a7b83f2a9257ebbd54/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/cec5cc412a7cb1a7b83f2a9257ebbd54/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/228e83c43dec3332e7512ffa613a0a33/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/228e83c43dec3332e7512ffa613a0a33/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ae987f65589476093365e6e8a71f5b28/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ae987f65589476093365e6e8a71f5b28/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5237a80f59b05ec8fd248830eefbcd99/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5237a80f59b05ec8fd248830eefbcd99/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a076601758a7f8e9f591022482818f12/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a076601758a7f8e9f591022482818f12/AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:28:13-35
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from [com.android.support:support-v4:26.1.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/df9f6ad22d2bbe16170fc5060a18f3bb/AndroidManifest.xml:27:13-51
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ba8e4529d41b08d37a09073898b6c896/AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ba8e4529d41b08d37a09073898b6c896/AndroidManifest.xml:27:13-44
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ba8e4529d41b08d37a09073898b6c896/AndroidManifest.xml:26:13-58
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-common-4.40.0.aar/cfe16a7334b1b955f691df62ff5770e1/AndroidManifest.xml:34:19-64
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/facebook-core-4.40.0.aar/5490b08ecf47c73d99bd1d8d047675d6/AndroidManifest.xml:48:25-92
+activity#com.twitter.sdk.android.tweetui.PlayerActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:28:9-31:49
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:29:13-74
+activity#com.twitter.sdk.android.tweetui.GalleryActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:32:9-34:49
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:34:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/f538980680ba3ceba58b15ead1adc231/AndroidManifest.xml:33:13-75
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:28:9-31:71
+	android:windowSoftInputMode
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:29:13-82
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:33:9-36:40
+	android:enabled
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/e8c53461a48128c53c411abd25c4b521/AndroidManifest.xml:34:13-84
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/anjaliverma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/145d0bfef9b2622cc1f0f1f4af5846e4/AndroidManifest.xml:29:13-79

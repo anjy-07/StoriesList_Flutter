@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'state.dart';
 import 'state_widget.dart';
 import 'login.dart';
+import 'StoryList.dart';
+import 'Stories.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -11,43 +14,57 @@ class HomeScreen extends StatefulWidget {
 class HomeScreenState extends State<HomeScreen> {
   StateModel appState;
 
-  DefaultTabController _buildTabView({Widget body}) {
-    const double _iconSize = 20.0;
+  List<Story> storiesList = [];
 
-    return DefaultTabController(
-      length: 4,
-      child: Scaffold(
-        appBar: PreferredSize(
-          // We set Size equal to passed height (50.0) and infinite width:
-          preferredSize: Size.fromHeight(50.0),
-          child: AppBar(
-            elevation: 2.0,
-            bottom: TabBar(
-              labelColor: Theme.of(context).indicatorColor,
-              tabs: [
-                Tab(icon: Icon(Icons.restaurant, size: _iconSize)),
-                Tab(icon: Icon(Icons.local_drink, size: _iconSize)),
-                Tab(icon: Icon(Icons.favorite, size: _iconSize)),
-                Tab(icon: Icon(Icons.settings, size: _iconSize)),
-              ],
-            ),
-          ),
-        ),
-        body: Padding(
-          padding: EdgeInsets.all(5.0)
-        ),
+  // List<Story> initialDoggos = []
+  //   ..add(Story('The Break Up', 'By Me',
+  //       'Ruby is a very good girl. Yes: Fetch, loungin\'. No: Dogs who get on furniture.'))
+  //   ..add(Story('Meet Me Again', 'By Sheetal', 'Best in Show 1999'))
+  //   ..add(Story('Life is Beautiful', 'By Prasheel',
+  //       'Star good boy on international snooze team.'))
+  //   ..add(Story('Smile Always', 'By Nativepennings', 'A Very Good Boy'))
+  //   ..add(Story('Toxic', 'By Ragibi', 'Self proclaimed human lover.'));
+
+  Widget _buildStories({Widget body}) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.black87,
+        title: Text('Tiny Tales'),
+      ),
+      body: Container(
+        decoration: BoxDecoration(color: Colors.grey[400]),
+        child: Center(
+            child: StreamBuilder<QuerySnapshot>(
+          stream: Firestore.instance.collection('UserStories').snapshots(),
+          builder: (context, snapshot) {
+            if (!snapshot.hasData)
+              return LinearProgressIndicator();
+            else {
+              storiesList.clear();
+              snapshot.data.documents.map((data) {
+                print(data['storyName']);
+                storiesList.add(new Story(
+                    data['storyName'], data['writer'], data['description']));
+                var record = Record.fromSnapshot(data);
+                print(record);
+              }).toList();
+
+              print(storiesList.length);
+              return StoryList(storiesList);
+            }
+          },
+        )),
       ),
     );
   }
 
   Widget _buildContent() {
-    if (appState.isLoading) {    
-       return  _buildLoadingIndicator();     
+    if (appState.isLoading) {
+      return _buildLoadingIndicator();
     } else if (!appState.isLoading && appState.user == null) {
       return new LoginScreen();
     } else {
-      return _buildTabView(       
-      );
+      return _buildStories();
     }
   }
 
@@ -57,30 +74,31 @@ class HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Column _buildSettings() {
-  //   return Column(
-  //     crossAxisAlignment: CrossAxisAlignment.start,
-  //     children: <Widget>[
-  //       SettingsButton(
-  //         Icons.exit_to_app,
-  //         "Log out",
-  //         appState.user.displayName,
-  //         () async {
-  //           await StateWidget.of(context).signOutOfGoogle();
-  //         },
-  //       ),
-  //     ],
-  //   );
-  // }
-
-
-
-  
-
   @override
   Widget build(BuildContext context) {
     // Build the content depending on the state:
     appState = StateWidget.of(context).state;
     return _buildContent();
   }
+}
+
+class Record {
+  final String description;
+  final String storyName;
+  final String writer;
+  final DocumentReference reference;
+
+  Record.fromMap(Map<String, dynamic> map, {this.reference})
+      : assert(map['description'] != null),
+        assert(map['storyName'] != null),
+        assert(map['writer'] != null),
+        description = map['description'],
+        storyName = map['storyName'],
+        writer = map['writer'];
+
+  Record.fromSnapshot(DocumentSnapshot snapshot)
+      : this.fromMap(snapshot.data, reference: snapshot.reference);
+
+  @override
+  String toString() => "Record<$description:$storyName:$writer>";
 }

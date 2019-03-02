@@ -22,9 +22,20 @@ subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
 }
 subprojects {
+    configurations.all {
+        resolutionStrategy {
+            force 'com.android.support:support-v4:27.1.0'
+            force 'com.android.support:support-media-compat:27.1.0'
+            force 'com.android.support:support-fragment:27.1.0'
+        }
+    }
     project.evaluationDependsOn(':app')
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+
+com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true

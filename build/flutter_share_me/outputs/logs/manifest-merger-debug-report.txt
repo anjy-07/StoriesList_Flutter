@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:2:3-39
+		INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:3:22-64
+application
+ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:4:5-12:19
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:5:9-7:47
+	android:value
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:7:13-44
+	android:name
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:6:13-58
+provider#com.facebook.FacebookContentProvider
+ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:8:9-11:39
+	android:authorities
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:10:13-90
+	android:exported
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml:9:13-64
+uses-sdk
+INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml
+INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml
+		ADDED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/anjaliverma/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_share_me-0.1.3/android/src/main/AndroidManifest.xml
