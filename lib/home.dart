@@ -16,45 +16,35 @@ class HomeScreenState extends State<HomeScreen> {
 
   List<Story> storiesList = [];
 
-  // List<Story> initialDoggos = []
-  //   ..add(Story('The Break Up', 'By Me',
-  //       'Ruby is a very good girl. Yes: Fetch, loungin\'. No: Dogs who get on furniture.'))
-  //   ..add(Story('Meet Me Again', 'By Sheetal', 'Best in Show 1999'))
-  //   ..add(Story('Life is Beautiful', 'By Prasheel',
-  //       'Star good boy on international snooze team.'))
-  //   ..add(Story('Smile Always', 'By Nativepennings', 'A Very Good Boy'))
-  //   ..add(Story('Toxic', 'By Ragibi', 'Self proclaimed human lover.'));
-
   Widget _buildStories({Widget body}) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black87,
         title: Text('Tiny Tales'),
       ),
-      body: Container(
-        decoration: BoxDecoration(color: Colors.grey[400]),
-        child: Center(
-            child: StreamBuilder<QuerySnapshot>(
-          stream: Firestore.instance.collection('UserStories').snapshots(),
-          builder: (context, snapshot) {
-            if (!snapshot.hasData)
-              return LinearProgressIndicator();
-            else {
-              storiesList.clear();
-              snapshot.data.documents.map((data) {
-                print(data['storyName']);
-                storiesList.add(new Story(
-                    data['storyName'], data['writer'], data['description']));
-                var record = Record.fromSnapshot(data);
-                print(record);
-              }).toList();
-
-              print(storiesList.length);
-              return StoryList(storiesList);
-            }
-          },
-        )),
-      ),
+      // body: Container(
+      //   decoration: BoxDecoration(color: Colors.grey[400]),
+      //   child: Center(
+      //     child: StreamBuilder<QuerySnapshot>(
+      //       stream: Firestore.instance.collection('UserStories').snapshots(),
+      //       builder: (context, snapshot) {
+      //         if (!snapshot.hasData)
+      //           return LinearProgressIndicator();
+      //         else {
+      //           storiesList.clear();
+      //           snapshot.data.documents.map((data) {
+      //             print(data['storyName']);
+      //             storiesList.add(new Story(
+      //                 data['storyName'], data['writer'], data['description']));
+      //             var record = Record.fromSnapshot(data);
+      //             print(record);
+      //           }).toList();
+      //           print(storiesList.length);
+      //           return StoryList(storiesList);
+      //         }
+      //      },
+      //   )),
+      // ),
     );
   }
 

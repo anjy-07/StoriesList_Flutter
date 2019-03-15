@@ -64,13 +64,8 @@ class _StateWidgetState extends State<StateWidget> {
     state.user = firebaseUser; // new
     setState(() {
       state.isLoading = false;
-      //if(firebaseUser != null)
-        state.user = firebaseUser;
-     // else
-       // state.user = null;
+      state.user = firebaseUser; 
     });
-
-   
   }
 
   Future<Null> signOutOfGoogle() async {

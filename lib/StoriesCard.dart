@@ -44,14 +44,14 @@ class _StoriesCardState extends State<StoriesCard> {
                       TextStyle(color: Colors.blueAccent[200], fontSize: 10.0),
                 ),
               ),
-              new Container(
-                //  padding: EdgeInsets.only(top: 8.0, right: 8.0, bottom: 4.0),
-                child: Text(
-                  '${widget.story.description}',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.grey[500], fontSize: 10.0),
-                ),
-              ),
+              // new Container(
+              //   //  padding: EdgeInsets.only(top: 8.0, right: 8.0, bottom: 4.0),
+              //   child: Text(
+              //     '${widget.story.description}',
+              //     textAlign: TextAlign.center,
+              //     style: TextStyle(color: Colors.grey[500], fontSize: 10.0),
+              //   ),
+              // ),
             ],
           )
         ],
@@ -125,13 +125,46 @@ class _StoriesCardState extends State<StoriesCard> {
     padding: new EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0, bottom: 8.0),
     child: new Column(
       children: <Widget>[
-        new Text(
-         '${story.description}',
-         )//   "A narrative or story is a report of connected events, real or imaginary, presented in a sequence of written or spoken words, or still or moving images, or both. The word derives from the Latin verb narrare,  which is derived from the adjective gnarus"),
+        firstString()
       ],
         
     ),
   );
+  }
+
+  Widget firstString(){
+    String firstHalf = "";
+    String secondHalf = "";
+    if(story.description.length > 500) {
+      firstHalf = story.description.substring(0, 500);
+      firstHalf = firstHalf + "...";
+      secondHalf = "not empty";
+    } else {
+      firstHalf = widget.story.description;
+    }  
+    if(secondHalf.isEmpty)
+      return new Text(firstHalf);
+    else {
+      return new Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: <Widget>[
+          new Text(firstHalf),
+          new InkWell(
+            child: new Row(
+             
+              children: <Widget>[         
+                new Text(
+                  "show more" ,
+                  style: new TextStyle(color: Colors.blue),
+                ),
+
+              ],
+            ),         
+          ),
+        ],
+      );
+    } 
+   
   }
   
 
@@ -167,22 +200,4 @@ class _StoriesCardState extends State<StoriesCard> {
   }
 }
 
- class SecondRoute extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Second Route"),
-        
-      ),
-      body: Center(
-        child: RaisedButton(
-          onPressed: () {
-            // Navigate back to first route when tapped.
-          },
-          child: Text('Go back!'),
-        ),
-      ),
-    );
-  }
-}
+ 

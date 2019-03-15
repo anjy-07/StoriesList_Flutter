@@ -182,16 +182,14 @@ void _pushAddTodoScreen() {
           appBar: new AppBar(
             title: new Text('Share')
           ),
-          body: new TextField(
-            autofocus: true,
-            onSubmitted: (val) {
-              Navigator.pop(context); 
-            },
-            decoration: new InputDecoration(
-              hintText: 'Enter something to do...',
-              contentPadding: const EdgeInsets.all(16.0)
+          body: Container(
+            width : 100,
+            height : 100,
+            decoration: BoxDecoration(        
+            shape: BoxShape.rectangle,
             ),
-          )
+            child  : buttons
+          ) 
         );
       }
     )
