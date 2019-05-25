@@ -1,6 +1,6 @@
 # stories
 
-A new Flutter project.
+Flutter project displaying stories list with Google authentication
 
 ## Getting Started
 
